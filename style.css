@@ -1,0 +1,186 @@
+.box {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hompg {
+    width: 600px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hom {
+
+}
+
+.hom:hover {
+    background-color: whitesmoke;
+    color: #0EA5E9;
+}
+
+.hompg1 {
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hom1 {
+    height: 45px;
+    width: 130px;
+    gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #0EA5E9;
+    color: white;
+}
+
+.hom2 {
+    height: 40px;
+    width: 100px;
+    gap: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.193);
+    color: rgba(0, 0, 0, 0.703);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.ikn {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .box {
+        height: 80px;
+        width: 100%;
+    }
+
+    .bx {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        padding: 10px;
+    }
+    .hompg {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .hompg1 {
+        gap: 7px;
+        padding: 5px;
+    }
+    .hom1{
+        height: 60px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .hom2{
+        height: 60px;
+        width: 85px;
+        display: flex;
+        justify-content: center;
+    }
+   
+
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        height: 80px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-left: 20px;
+
+    }
+
+    .hompg {
+        display: none;
+    }
+
+    .hompg1 {
+        display: none;
+    }
+
+    .ikn {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .box {
+        height: 80px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-left: 20px;
+
+    }
+
+    .hompg {
+        display: none;
+    }
+
+    .hompg1 {
+        display: none;
+    }
+
+    .ikn {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+}
