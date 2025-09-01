@@ -31,9 +31,7 @@
     justify-content: space-around;
 }
 
-.hom {
-
-}
+.hom {}
 
 .hom:hover {
     background-color: whitesmoke;
@@ -73,10 +71,97 @@
     background-color: white;
     border-radius: 5px;
 }
+
 .ikn {
     display: none;
 }
 
+.box1 {
+    height: 670px;
+    width: 100%;
+    background-image: url("./pexels-tobiasbjorkli-2104152.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.datpg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.datpge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datpg1 {
+    height: 100px;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datpg2 {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    gap: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.datpg3 {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    gap: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.datpg4 {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.datpg5 {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
 
 @media only screen and (max-width: 1024px) {
     .box {
@@ -96,31 +181,66 @@
         justify-content: start;
         padding: 10px;
     }
+
     .hompg {
         width: 100%;
         display: flex;
         justify-content: space-around;
 
     }
+
     .hompg1 {
         gap: 7px;
         padding: 5px;
     }
-    .hom1{
+
+    .hom1 {
         height: 60px;
         width: 80px;
         display: flex;
         justify-content: center;
     }
-    .hom2{
+
+    .hom2 {
         height: 60px;
         width: 85px;
         display: flex;
         justify-content: center;
     }
-   
 
+    .box1 {
+        height: 670px;
+        width: 100%;
+    }
+
+    .box2 {
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+     .box3{
+        height: 1100px;
+        width: 100%;
+        display: flex;
+    }
+    .fpkg{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box4{
+        height: 600px;
+        width: 100%;
+    }
+    .exp2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
 }
+
 
 @media only screen and (max-width: 768px) {
     .box {
@@ -151,6 +271,48 @@
         justify-content: end;
         padding-right: 20px;
     }
+
+    .box1 {
+        height: 670px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .datpg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    .datpg1 {
+        height: 200px;
+        width: 45vh;
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datpg2 {
+        width: 100%;
+    }
+
+    .datpg3 {
+        width: 100%;
+    }
+
+    .datpg4 {
+        width: 100%;
+    }
+
+    .datpg5 {
+        width: 100%;
+    }
+
 
 }
 
@@ -183,4 +345,41 @@
         justify-content: end;
         padding-right: 20px;
     }
+
+    .box1 {
+        height: 670px;
+        width: 100%;
+    }
+
+    .datpg {
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .datpg1 {
+        display: flex;
+        width: 30vh;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .datpg2 {
+        width: 100%;
+    }
+
+    .datpg3 {
+        width: 100%;
+    }
+
+    .datpg4 {
+        width: 100%;
+    }
+
+    .datpg5 {
+        width: 100%;
+    }
+
+
 }
