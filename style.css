@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .bx {
     height: 50px;
     width: 100%;
@@ -97,6 +96,9 @@
     justify-content: center;
     font-size: 30px;
 }
+.sp{
+    font-size: 60px;
+}
 
 .datpge {
     display: flex;
@@ -119,50 +121,423 @@
     height: 40px;
     width: 150px;
     border-radius: 5px;
+    color: rgba(0, 0, 0, 0.268);
     gap: 10px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.077);
 }
 
 .datpg3 {
     height: 40px;
     width: 150px;
+    color: rgba(0, 0, 0, 0.268);
     font-size: 20px;
     gap: 10px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.077);
 }
 
 .datpg4 {
     height: 40px;
     width: 150px;
     border-radius: 5px;
+    color: rgba(0, 0, 0, 0.268);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    gap: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.077);
 }
 
 .datpg5 {
     height: 40px;
     width: 150px;
     border-radius: 5px;
+    color: white;
     gap: 10px;
     display: flex;
+    background-color: #0EA5E9;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.077);
+}
+
+.box2 {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt {
+    height: 200px;
+    width: 100%;
     border: 2px solid black;
 }
 
+.txt1 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+}
+
+.pto {
+    height: 550px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tx {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+.pto1 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./france-eiffel-tower_16x9.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+    background-position: center;
+    transition: background-size 3s ease;
+}
+
+.pto1:hover {
+    background-size: 120%;
+    background-position: center;
+}
+.pto2 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./tokyo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.pto2:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.pto3 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./usa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.pto3:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.pto4 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./london.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.pto4:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.pto5 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./dubai.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.pto5:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.pto6 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./australia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.pto6:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.box3{
+    height: 630px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.txt2{
+    width: 100%;
+}
+
+.txt3{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+}
+.fpkg{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fpkg1{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+.fpkg1 img{
+    height: 230px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.fpkg2{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.fpkg2 img{
+    height: 230px;
+    width: 400px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.fpkg3{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.fpkg3 img{
+    height: 230px;
+    width: 400px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ftx{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.ftx1{
+    height: 200px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.ftx2{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ftx3{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: rgb(69, 69, 69);
+
+}
+.ftx4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    color: rgb(69, 69, 69);
+}
+.ftx5{
+    height: 40px;
+    width: 130px;
+    background-color: #0EA5E9;
+    border-radius: 10px;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    height: 370px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.exp{
+    height: 130px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.exp1{
+    font-size: 35px;
+    color: black;
+}
+.exp2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.exp3{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: white;
+}
+.exp5{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: white;
+}
+.exp6{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: white;
+}
+.exp7{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: white;
+}
+.exp4{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 1260px) {
+    .box2{
+        height: 1000px;
+        width: 100%;
+    }
+    .box3{
+        height: 1100px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fpkg{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box4{
+        height: 600px;
+        width: 100%;
+    }
+    .exp2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap:5px;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .box {
         height: 80px;
@@ -240,7 +615,23 @@
         gap: 5px;
     }
 }
+@media only screen and (max-width: 850px) {
+    .box2{
+        height: 1820px;
+        width: 100%;
+    }
+     .box3{
+        height: 1550px;
+        width: 100%;
+        display: flex;
+    }
+    .fpkg{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+}
 
 @media only screen and (max-width: 768px) {
     .box {
@@ -313,7 +704,41 @@
         width: 100%;
     }
 
-
+    .box2 {
+        height: 1820px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box3{
+        height: 1550px;
+        width: 100%;
+        display: flex;
+    }
+    .fpkg{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box4{
+        height: auto;
+        width: 100%;
+    }
+    .exp2{
+        width: 100%;
+    }
+    .exp3{
+        width: 100%;
+    }
+    .exp5{
+        width: 100%;
+    }
+    .exp6{
+        width: 100%;
+    }
+    .exp7{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -357,6 +782,9 @@
         justify-content: center;
         align-items: center;
     }
+    .sp{
+        font-size: 30px;
+    }
 
     .datpg1 {
         display: flex;
@@ -381,5 +809,60 @@
         width: 100%;
     }
 
-
+    .box2 {
+        height: 1820px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box3{
+        height: 1550px;
+        width: 100%;
+        display: flex;
+    }
+    .txt3{
+        font-size: 18px;
+    }
+    .fpkg{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fpkg1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fpkg2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fpkg3{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fpkg1 img{
+        width: 100%;
+    }
+    .fpkg2 img{
+        width: 100%;
+    }
+    .fpkg3 img{
+        width: 100%;
+    }
+    .ftx{
+        width: 100%;
+    }
+    .ftx1{
+        width: 100%;
+        margin: 0px;
+    }
+    .exp{
+        height: 150px;
+    }
+    .exp4{
+        font-size: 25px;
+    }
 }
