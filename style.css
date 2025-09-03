@@ -510,6 +510,156 @@
     gap: 5px;
     font-size: 17px;
 }
+.box5{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.svtxt {
+    height: 200px;
+    width: 100%;
+}
+.svtxt1{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+}
+
+.svpto{
+    height: 600px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.svtx {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+.svpto1 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./adventure1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+    background-position: center;
+    transition: background-size 3s ease;
+}
+
+.svpto1:hover {
+    background-size: 120%;
+    background-position: center;
+}
+.svpto2 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./honeymoon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.svpto2:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.svpto3 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./family-holiday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.svpto3:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.svpto4 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./corporate-travel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.svpto4:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.svpto5 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./hotal\ booking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.svpto5:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
+.svpto6 {
+    height: 250px;
+    width: 400px;
+    background-image: url(./flight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    border-radius: 10px;
+}
+.svpto6:hover {
+    background-size: 120%;
+    background-position: center;
+}
+
 
 @media only screen and (max-width: 1260px) {
     .box2{
@@ -614,10 +764,19 @@
         flex-wrap: wrap;
         gap: 5px;
     }
+        .box5{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 850px) {
+    .nn{
+        display: none;
+    }
     .box2{
-        height: 1820px;
+        height: 1020px;
         width: 100%;
     }
      .box3{
@@ -634,6 +793,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .nn{
+        display: none;
+    }
     .box {
         height: 80px;
         width: 100%;
@@ -705,7 +867,7 @@
     }
 
     .box2 {
-        height: 1820px;
+        height: 1020px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -739,9 +901,18 @@
     .exp7{
         width: 100%;
     }
+        .box5{
+        height: 1020px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 425px) {
+    .nn{
+        display: none;
+    }
     .box {
         height: 80px;
         width: 100%;
@@ -810,7 +981,7 @@
     }
 
     .box2 {
-        height: 1820px;
+        height: 1020px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -864,5 +1035,11 @@
     }
     .exp4{
         font-size: 25px;
+    }
+    .box5{
+        height: 1020px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
