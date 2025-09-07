@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .bx {
     height: 50px;
     width: 100%;
@@ -96,7 +97,8 @@
     justify-content: center;
     font-size: 30px;
 }
-.sp{
+
+.sp {
     font-size: 60px;
 }
 
@@ -234,6 +236,7 @@
     background-size: 120%;
     background-position: center;
 }
+
 .pto2 {
     height: 250px;
     width: 400px;
@@ -247,6 +250,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .pto2:hover {
     background-size: 120%;
     background-position: center;
@@ -265,6 +269,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .pto3:hover {
     background-size: 120%;
     background-position: center;
@@ -283,6 +288,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .pto4:hover {
     background-size: 120%;
     background-position: center;
@@ -301,6 +307,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .pto5:hover {
     background-size: 120%;
     background-position: center;
@@ -319,21 +326,23 @@
     color: white;
     border-radius: 10px;
 }
+
 .pto6:hover {
     background-size: 120%;
     background-position: center;
 }
 
-.box3{
+.box3 {
     height: 630px;
     width: 100%;
     background-color: whitesmoke;
 }
-.txt2{
+
+.txt2 {
     width: 100%;
 }
 
-.txt3{
+.txt3 {
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -343,59 +352,67 @@
     font-size: 25px;
     color: rgb(69, 69, 69);
 }
-.fpkg{
+
+.fpkg {
     height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.fpkg1{
+
+.fpkg1 {
     height: 450px;
     width: 400px;
     border-radius: 10px;
     background-color: white;
 }
-.fpkg1 img{
+
+.fpkg1 img {
     height: 230px;
     width: 400px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.fpkg2{
-    height: 450px;
-    width: 400px;
-    border-radius: 10px;
-    background-color: white;
 
-}
-.fpkg2 img{
-    height: 230px;
-    width: 400px; 
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.fpkg3{
+.fpkg2 {
     height: 450px;
     width: 400px;
     border-radius: 10px;
     background-color: white;
 
 }
-.fpkg3 img{
+
+.fpkg2 img {
     height: 230px;
-    width: 400px; 
+    width: 400px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.ftx{
+
+.fpkg3 {
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.fpkg3 img {
+    height: 230px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ftx {
     height: 200px;
     width: 400px;
     display: flex;
     flex-direction: column;
 }
-.ftx1{
+
+.ftx1 {
     height: 200px;
     width: 360px;
     display: flex;
@@ -403,26 +420,30 @@
     justify-content: space-around;
     margin-left: 20px;
 }
-.ftx2{
-     display: flex;
+
+.ftx2 {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.ftx3{
+
+.ftx3 {
     display: flex;
     flex-direction: column;
     gap: 8px;
     color: rgb(69, 69, 69);
 
 }
-.ftx4{
+
+.ftx4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 17px;
     color: rgb(69, 69, 69);
 }
-.ftx5{
+
+.ftx5 {
     height: 40px;
     width: 130px;
     background-color: #0EA5E9;
@@ -432,12 +453,14 @@
     justify-content: center;
     align-items: center;
 }
-.box4{
+
+.box4 {
     height: 370px;
     width: 100%;
     background-color: whitesmoke;
 }
-.exp{
+
+.exp {
     height: 130px;
     width: 100%;
     font-size: 20px;
@@ -447,17 +470,20 @@
     align-items: center;
     gap: 10px;
 }
-.exp1{
+
+.exp1 {
     font-size: 35px;
     color: black;
 }
-.exp2{
+
+.exp2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-.exp3{
+
+.exp3 {
     height: 200px;
     width: 300px;
     display: flex;
@@ -468,7 +494,8 @@
     font-size: 25px;
     background-color: white;
 }
-.exp5{
+
+.exp5 {
     height: 200px;
     width: 300px;
     display: flex;
@@ -479,7 +506,8 @@
     font-size: 25px;
     background-color: white;
 }
-.exp6{
+
+.exp6 {
     height: 200px;
     width: 300px;
     display: flex;
@@ -490,7 +518,8 @@
     font-size: 25px;
     background-color: white;
 }
-.exp7{
+
+.exp7 {
     height: 200px;
     width: 300px;
     display: flex;
@@ -501,7 +530,8 @@
     font-size: 25px;
     background-color: white;
 }
-.exp4{
+
+.exp4 {
     width: 250px;
     display: flex;
     justify-content: center;
@@ -510,18 +540,21 @@
     gap: 5px;
     font-size: 17px;
 }
-.box5{
+
+.box5 {
     height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .svtxt {
-    height: 200px;
+    height: 100px;
     width: 100%;
 }
-.svtxt1{
-    height: 230px;
+
+.svtxt1 {
+    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -532,7 +565,7 @@
     color: rgb(69, 69, 69);
 }
 
-.svpto{
+.svpto {
     height: 600px;
     width: 100%;
     gap: 20px;
@@ -570,6 +603,7 @@
     background-size: 120%;
     background-position: center;
 }
+
 .svpto2 {
     height: 250px;
     width: 400px;
@@ -583,6 +617,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .svpto2:hover {
     background-size: 120%;
     background-position: center;
@@ -601,6 +636,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .svpto3:hover {
     background-size: 120%;
     background-position: center;
@@ -619,6 +655,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .svpto4:hover {
     background-size: 120%;
     background-position: center;
@@ -637,6 +674,7 @@
     color: white;
     border-radius: 10px;
 }
+
 .svpto5:hover {
     background-size: 120%;
     background-position: center;
@@ -655,39 +693,163 @@
     color: white;
     border-radius: 10px;
 }
+
 .svpto6:hover {
     background-size: 120%;
     background-position: center;
 }
+.box6{
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.rwtx{
+    height: 150px;
+    width: 100%;
+    color: rgb(69, 69, 69);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.rwtx1{
+    color: black;
+    font-size: 35px;
+}
+.rwbx{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rwbx1{
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+}
+.rwbx2{
+    height: 220px;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.rwbx3{
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+}
+.rwbx4{
+    height: 220px;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.rwbx5{
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+}
+.rwbx6{
+    height: 220px;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.rwbx7{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rwbx8{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.rwbx8 img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.rwbx9{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.rwbx10{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 191, 0);
+}
+.rwbx11{
+    width: 100%;
+    margin-top: 40px;
+}
 
-
+ 
 @media only screen and (max-width: 1260px) {
-    .box2{
+    .box2 {
         height: 1000px;
         width: 100%;
     }
-    .box3{
+
+    .box3 {
         height: 1100px;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .fpkg{
+
+    .fpkg {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .box4{
+
+    .box4 {
         height: 600px;
         width: 100%;
     }
-    .exp2{
+
+    .exp2 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        gap:5px;
+        gap: 5px;
+    }
+     .box5 {
+        height: 960px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box6{
+        height: 770px;
+        width: 100%;
+    }
+    .rwbx{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
     }
 }
+
 @media only screen and (max-width: 1024px) {
     .box {
         height: 80px;
@@ -744,58 +906,87 @@
         display: flex;
         flex-direction: column;
     }
-     .box3{
+
+    .box3 {
         height: 1100px;
         width: 100%;
         display: flex;
     }
-    .fpkg{
+
+    .fpkg {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .box4{
+
+    .box4 {
         height: 600px;
         width: 100%;
     }
-    .exp2{
+
+    .exp2 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         gap: 5px;
     }
-        .box5{
+
+    .box5 {
         height: 1000px;
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+     .box6{
+        height: 770px;
+        width: 100%;
+    }
+    .rwbx{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
 }
+
 @media only screen and (max-width: 850px) {
-    .nn{
+    .nn {
         display: none;
     }
-    .box2{
+
+    .box2 {
         height: 1020px;
         width: 100%;
     }
-     .box3{
+
+    .box3 {
         height: 1550px;
         width: 100%;
         display: flex;
     }
-    .fpkg{
+    .fpkg {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+    }
+    .box6{
+        height: 770px;
+        width: 100%;
+    }
+    .rwbx{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
-    .nn{
+    .nn {
         display: none;
     }
+
     .box {
         height: 80px;
         width: 100%;
@@ -872,36 +1063,45 @@
         display: flex;
         flex-direction: column;
     }
-    .box3{
+
+    .box3 {
         height: 1550px;
         width: 100%;
         display: flex;
     }
-    .fpkg{
+
+    .fpkg {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .box4{
-        height: auto;
+
+    .box4 {
+        height: 950px;
         width: 100%;
     }
-    .exp2{
+
+    .exp2 {
         width: 100%;
     }
-    .exp3{
+
+    .exp3 {
         width: 100%;
     }
-    .exp5{
+
+    .exp5 {
         width: 100%;
     }
-    .exp6{
+
+    .exp6 {
         width: 100%;
     }
-    .exp7{
+
+    .exp7 {
         width: 100%;
     }
-        .box5{
+
+    .box5 {
         height: 1020px;
         width: 100%;
         display: flex;
@@ -910,9 +1110,10 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .nn{
+    .nn {
         display: none;
     }
+
     .box {
         height: 80px;
         width: 100%;
@@ -953,7 +1154,8 @@
         justify-content: center;
         align-items: center;
     }
-    .sp{
+
+    .sp {
         font-size: 30px;
     }
 
@@ -986,60 +1188,106 @@
         display: flex;
         flex-direction: column;
     }
-    .box3{
+
+    .box3 {
         height: 1550px;
         width: 100%;
         display: flex;
     }
-    .txt3{
+
+    .txt3 {
         font-size: 18px;
     }
-    .fpkg{
+
+    .fpkg {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .fpkg1{
+
+    .fpkg1 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .fpkg2{
+
+    .fpkg2 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .fpkg3{
+
+    .fpkg3 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .fpkg1 img{
+
+    .fpkg1 img {
         width: 100%;
     }
-    .fpkg2 img{
+
+    .fpkg2 img {
         width: 100%;
     }
-    .fpkg3 img{
+
+    .fpkg3 img {
         width: 100%;
     }
-    .ftx{
+
+    .ftx {
         width: 100%;
     }
-    .ftx1{
+
+    .ftx1 {
         width: 100%;
         margin: 0px;
     }
-    .exp{
+
+    .exp {
         height: 150px;
     }
-    .exp4{
+
+    .exp4 {
         font-size: 25px;
     }
-    .box5{
+    .box4 {
+        height: 970px;
+        width: 100%;
+    }
+    .box5 {
         height: 1020px;
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+      .box6{
+        height: 770px;
+        width: 100%;
+    }
+    .rwtx{
+        font-size: 18px;
+    }
+    .rwtx1{
+        font-size: 28px;
+    }
+    .rwbx{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .rwbx2{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .rwbx4{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .rwbx6{
+        width: 100%;
+        padding-left: 0px;
+    }
+
 }
