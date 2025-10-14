@@ -493,7 +493,7 @@
     border-radius: 10px;
     font-size: 25px;
     background-color: white;
-     gap: 10px;
+    gap: 10px;
 }
 
 .exp5 {
@@ -506,7 +506,7 @@
     border-radius: 10px;
     font-size: 25px;
     background-color: white;
-     gap: 10px;
+    gap: 10px;
 }
 
 .exp6 {
@@ -532,7 +532,7 @@
     border-radius: 10px;
     font-size: 25px;
     background-color: white;
-     gap: 10px;
+    gap: 10px;
 }
 
 .exp4 {
@@ -824,7 +824,6 @@
 .box7 {
     height: 550px;
     width: 100%;
-    background-color: wheat;
 }
 
 .glry {
@@ -897,6 +896,127 @@
     border-radius: 10px;
 }
 
+.box8 {
+    height: 620px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.subbox {
+    height: auto;
+    width: 100%;
+}
+
+.subbox1 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+}
+
+.subbox2 {
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.subbox2 img {
+    height: 230px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subbox7 {
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.subbox7 img {
+    height: 230px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subbox8 {
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.subbox8 img {
+    height: 230px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subbox3 {
+    width: 360px;
+    padding-left: 25px;
+}
+
+.subbox9 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box9{
+    height: 300px;
+    width: 100%;
+    background-color: #0EA5E9; 
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mtx{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.mbx{
+    height: 40px;
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.mbx1{
+    height: 40px;
+    width: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.mbx2{
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #0EA5E9;
+}
+
 @media only screen and (max-width: 1260px) {
     .nn1 {
         display: none;
@@ -963,9 +1083,22 @@
         justify-content: center;
         align-items: center;
     }
+
+    .box8 {
+        height: 1080px;
+        width: 100%;
+    }
+
+    .subbox9 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
+
 @media only screen and (max-width: 1024px) {
+
     .box {
         height: 80px;
         width: 100%;
@@ -1083,6 +1216,16 @@
         display: none;
     }
 
+    .box2 {
+        height: 770px;
+        width: 100%;
+    }
+
+    .box4 {
+        height: 550px;
+        width: 100%;
+    }
+
     .box7 {
         height: 550px;
         width: 100%;
@@ -1095,6 +1238,36 @@
         align-items: center;
     }
 
+    .box5 {
+        height: 750px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box6 {
+        height: 500px;
+        width: 100%;
+    }
+
+    .rwbx {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .box8 {
+        height: 620px;
+        width: 100%;
+    }
+
+    .subbox9 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -1117,6 +1290,11 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .box5 {
+        height: 970px;
+        width: 100%;
     }
 
     .box6 {
@@ -1143,6 +1321,16 @@
         align-items: center;
     }
 
+    .box8 {
+        height: 1080px;
+        width: 100%;
+    }
+
+    .subbox9 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1282,14 +1470,26 @@
         justify-content: center;
         align-items: center;
     }
+    .box8 {
+        height: 1080px;
+        width: 100%;
+    }
+
+    .subbox9 {
+        height: 300px;
+        width: 100%;
+    }
+    .mbx{
+
+    }
 }
+
 @media only screen and (max-width: 630px) {
     .box7 {
         height: 1070px;
         width: 100%;
     }
 }
-
 @media only screen and (max-width: 425px) {
     .nn {
         display: none;
@@ -1305,7 +1505,6 @@
         display: flex;
         justify-content: start;
         padding-left: 20px;
-
     }
 
     .hompg {
@@ -1439,7 +1638,7 @@
     }
 
     .box5 {
-        height: 1020px;
+        height: 950px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1480,7 +1679,7 @@
     }
 
     .box7 {
-        height: 1070px;
+        height: 1080px;
         width: 100%;
     }
 
@@ -1490,17 +1689,64 @@
         justify-content: center;
         align-items: center;
     }
-    .glry5 img{
-     width: 100%;
-    }
-    .glry6 img{
-  width: 100%;
-    }
-    .glry9 img{
-      width: 100%;
-    }
-    .glry10 img{
-    width: 100%;
+
+    .glry5 img {
+        width: 100%;
     }
 
+    .glry6 img {
+        width: 100%;
+    }
+
+    .glry9 img {
+        width: 100%;
+    }
+
+    .glry10 img {
+        width: 100%;
+    }
+
+    .box8 {
+        height: 1090px;
+        width: 100%;
+    }
+    .subbox1{
+        font-size: large ;
+    }
+    .subbox9 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subbox7{
+        width: 100%;
+    }
+    .subbox8{
+        width: 100%;
+    }
+    .subbox8 img {
+        width: 100%;
+    }
+
+    .subbox7 img {
+        width: 100%;
+    }
+    .subbox3{
+        width: 100%;
+        font-size: large;
+        padding-left: 0px;
+    }
+    .box9{
+        height: 300px;
+        width: 100%;
+    }
+    .mbx{
+        width: auto;
+    }
+    .mbx1{
+        width: 130px;
+    }
+    .mbx2{
+        width: 100px;
+    }
 }

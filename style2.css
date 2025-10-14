@@ -1,0 +1,75 @@
+.bagpg {
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.bag {
+    height: 400px;
+    width: 100%;
+    background-image: url(./bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+
+.boxtx {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.detl{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+.detl1{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .bagpg {
+        height: 380px;
+        width: 100%;
+    }
+
+    .bag {
+        height: 380px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bagpg {
+        height: 380px;
+        width: 100%;
+    }
+
+    .bag {
+        height: 380px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .bag {
+        height: 380px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .boxtx {
+        font-size: 15px;
+    }
+}
