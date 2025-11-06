@@ -972,16 +972,18 @@
     justify-content: center;
     gap: 20px;
 }
-.box9{
+
+.box9 {
     height: 300px;
     width: 100%;
-    background-color: #0EA5E9; 
-     display: flex;
+    background-color: #0EA5E9;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.mtx{
+
+.mtx {
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -989,25 +991,30 @@
     align-items: center;
     color: white;
 }
-.mbx{
+
+.mbx {
     height: 40px;
     width: 420px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
-.mbx1{
+
+.mbx1 {
     height: 40px;
-    width: 270px;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
-.mbx2{
+
+.mbx2 {
     height: 40px;
-    width: 130px;
+    width: 170px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -1015,6 +1022,102 @@
     justify-content: center;
     align-items: center;
     color: #0EA5E9;
+    border-radius: 10px;
+}
+
+.box10 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cont2 {
+    height: 40px;
+    width: 150px;
+    border: 2px solid #0EA5E9;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.cont3 {
+    height: 40px;
+    width: 150px;
+    border: 2px solid #0EA5E9;
+    color: #0EA5E9;
+    border-radius: 10px;
+}
+
+.box11 {
+    height: 400px;
+    width: 100%;
+    color: white;
+    background-color: rgb(17 24 39);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lstpg {
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.lstpg7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lstpg8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lstpg1 {
+    height: 300px;
+    width: 270px;
+    color: rgba(208, 207, 207, 0.892);
+}
+
+.lstpg6:hover {
+    color: #0EA5E9;
+}
+
+.lstpg2 {
+    height: 300px;
+    width: 270px;
+    color: rgba(208, 207, 207, 0.892);
+}
+
+.lstpg3 {
+    height: 300px;
+    width: 270px;
+    color: rgba(208, 207, 207, 0.892);
+}
+
+.lstpg4 {
+    height: 300px;
+    width: 270px;
+    color: rgba(208, 207, 207, 0.892);
+}
+
+.lstpg5 {
+    display: flex;
+    justify-content: center;
+    color: rgba(208, 207, 207, 0.892);
 }
 
 @media only screen and (max-width: 1260px) {
@@ -1094,9 +1197,29 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .box11 {
+        width: 100%;
+        height: 500px;
+    }
+    .lstpg {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-
+@media only screen and (max-width: 1100px) {
+    .box11 {
+        width: 100%;
+        height: 700px;
+    }
+    .lstpg {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
 @media only screen and (max-width: 1024px) {
 
     .box {
@@ -1208,6 +1331,15 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+      .box11 {
+        width: 100%;
+        height: 700px;
+    }
+    .lstpg {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
 }
 
@@ -1470,6 +1602,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .box8 {
         height: 1080px;
         width: 100%;
@@ -1479,9 +1612,52 @@
         height: 300px;
         width: 100%;
     }
-    .mbx{
 
+    .box9 {
+        height: 300px;
+        width: 100%;
     }
+
+    .mbx {
+        width: 50%;
+    }
+
+    .mbx1 {
+        width: 100%;
+    }
+
+    .mbx2 {
+        width: 100%;
+    }
+
+    .box11 {
+        width: 100%;
+        height: 1100px;
+    }
+
+    .lstpg {
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lstpg7{
+        display: flex;
+         height: 500px;
+        flex-direction: column;
+    }
+     .lstpg8{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lstpg5 {
+        padding-left: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 630px) {
@@ -1490,6 +1666,7 @@
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 425px) {
     .nn {
         display: none;
@@ -1710,20 +1887,25 @@
         height: 1090px;
         width: 100%;
     }
-    .subbox1{
-        font-size: large ;
+
+    .subbox1 {
+        font-size: large;
     }
+
     .subbox9 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .subbox7{
+
+    .subbox7 {
         width: 100%;
     }
-    .subbox8{
+
+    .subbox8 {
         width: 100%;
     }
+
     .subbox8 img {
         width: 100%;
     }
@@ -1731,22 +1913,64 @@
     .subbox7 img {
         width: 100%;
     }
-    .subbox3{
+
+    .subbox3 {
         width: 100%;
         font-size: large;
         padding-left: 0px;
     }
-    .box9{
+
+    .box9 {
         height: 300px;
         width: 100%;
     }
-    .mbx{
+
+    .mbx {
         width: auto;
     }
-    .mbx1{
+
+    .mbx1 {
         width: 130px;
     }
-    .mbx2{
+
+    .mbx2 {
         width: 100px;
+    }
+
+    .box10 {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .cont {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+    .cont1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont2 {
+        width: 100%;
+    }
+
+    .cont3 {
+        width: 100%;
+    }
+
+    .box11 {
+        height: 1100px;
+    }
+
+    .lstpg {
+        padding-left: 10px;
+    }
+
+    .lstpg5 {
+        padding-left: 10px;
     }
 }
